@@ -1,0 +1,18 @@
+version: 2
+
+sources:
+  - name: raw
+    database: flights_db
+    schema: raw
+    tables:
+      - name: flights_raw
+        description: "Raw 2024 US flight on-time performance data from BTS"
+        columns:
+          - name: fl_date
+            description: "Date of the flight"
+          - name: op_unique_carrier
+            description: "Airline carrier code"
+          - name: origin
+            description: "Origin airport code"
+          - name: dest
+            description: "Destination airport code"

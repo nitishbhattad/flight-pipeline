@@ -1,0 +1,36 @@
+[2026-06-06T20:23:04.753-0400] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: flight_data_pipeline.dbt_test_all_models manual__2026-06-07T00:21:53.591277+00:00 [queued]>
+[2026-06-06T20:23:04.755-0400] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: flight_data_pipeline.dbt_test_all_models manual__2026-06-07T00:21:53.591277+00:00 [queued]>
+[2026-06-06T20:23:04.755-0400] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2026-06-06T20:23:04.764-0400] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): dbt_test_all_models> on 2026-06-07 00:21:53.591277+00:00
+[2026-06-06T20:23:04.769-0400] {standard_task_runner.py:60} INFO - Started process 63957 to run task
+[2026-06-06T20:23:04.772-0400] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'flight_data_pipeline', 'dbt_test_all_models', 'manual__2026-06-07T00:21:53.591277+00:00', '--job-id', '11', '--raw', '--subdir', 'DAGS_FOLDER/flight_pipeline.py', '--cfg-path', '/var/folders/gg/xgb_ryd93xb1k5gd7g84zns00000gn/T/tmp8s93qkom']
+[2026-06-06T20:23:04.773-0400] {standard_task_runner.py:88} INFO - Job 11: Subtask dbt_test_all_models
+[2026-06-06T20:23:04.794-0400] {task_command.py:423} INFO - Running <TaskInstance: flight_data_pipeline.dbt_test_all_models manual__2026-06-07T00:21:53.591277+00:00 [running]> on host nitishs-macbook-air-5.local
+[2026-06-06T20:23:04.814-0400] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='nitish' AIRFLOW_CTX_DAG_ID='flight_data_pipeline' AIRFLOW_CTX_TASK_ID='dbt_test_all_models' AIRFLOW_CTX_EXECUTION_DATE='2026-06-07T00:21:53.591277+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-06-07T00:21:53.591277+00:00'
+[2026-06-06T20:23:04.816-0400] {subprocess.py:63} INFO - Tmp dir root location: /var/folders/gg/xgb_ryd93xb1k5gd7g84zns00000gn/T
+[2026-06-06T20:23:04.816-0400] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'cd /Users/nitishbhattad/Desktop/flight-pipeline/dbt_project && dbt test']
+[2026-06-06T20:23:04.821-0400] {subprocess.py:86} INFO - Output:
+[2026-06-06T20:23:05.741-0400] {subprocess.py:93} INFO - [0m00:23:05  Running with dbt=1.8.0
+[2026-06-06T20:23:05.841-0400] {subprocess.py:93} INFO - [0m00:23:05  Registered adapter: postgres=1.8.0
+[2026-06-06T20:23:06.053-0400] {subprocess.py:93} INFO - [0m00:23:06  Found 5 models, 4 data tests, 1 seed, 1 source, 428 macros
+[2026-06-06T20:23:06.055-0400] {subprocess.py:93} INFO - [0m00:23:06
+[2026-06-06T20:23:06.195-0400] {subprocess.py:93} INFO - [0m00:23:06  Concurrency: 4 threads (target='dev')
+[2026-06-06T20:23:06.198-0400] {subprocess.py:93} INFO - [0m00:23:06
+[2026-06-06T20:23:06.201-0400] {subprocess.py:93} INFO - [0m00:23:06  1 of 4 START test not_null_stg_flights_airline_code ............................ [RUN]
+[2026-06-06T20:23:06.202-0400] {subprocess.py:93} INFO - [0m00:23:06  2 of 4 START test not_null_stg_flights_dest_airport ............................ [RUN]
+[2026-06-06T20:23:06.203-0400] {subprocess.py:93} INFO - [0m00:23:06  3 of 4 START test not_null_stg_flights_flight_date ............................. [RUN]
+[2026-06-06T20:23:06.203-0400] {subprocess.py:93} INFO - [0m00:23:06  4 of 4 START test not_null_stg_flights_origin_airport .......................... [RUN]
+[2026-06-06T20:23:08.704-0400] {subprocess.py:93} INFO - [0m00:23:08  2 of 4 PASS not_null_stg_flights_dest_airport .................................. [[32mPASS[0m in 2.50s]
+[2026-06-06T20:23:08.712-0400] {subprocess.py:93} INFO - [0m00:23:08  3 of 4 PASS not_null_stg_flights_flight_date ................................... [[32mPASS[0m in 2.50s]
+[2026-06-06T20:23:08.716-0400] {subprocess.py:93} INFO - [0m00:23:08  1 of 4 PASS not_null_stg_flights_airline_code .................................. [[32mPASS[0m in 2.50s]
+[2026-06-06T20:23:08.717-0400] {subprocess.py:93} INFO - [0m00:23:08  4 of 4 PASS not_null_stg_flights_origin_airport ................................ [[32mPASS[0m in 2.50s]
+[2026-06-06T20:23:08.746-0400] {subprocess.py:93} INFO - [0m00:23:08
+[2026-06-06T20:23:08.747-0400] {subprocess.py:93} INFO - [0m00:23:08  Finished running 4 data tests in 0 hours 0 minutes and 2.69 seconds (2.69s).
+[2026-06-06T20:23:08.780-0400] {subprocess.py:93} INFO - [0m00:23:08
+[2026-06-06T20:23:08.781-0400] {subprocess.py:93} INFO - [0m00:23:08  [32mCompleted successfully[0m
+[2026-06-06T20:23:08.781-0400] {subprocess.py:93} INFO - [0m00:23:08
+[2026-06-06T20:23:08.781-0400] {subprocess.py:93} INFO - [0m00:23:08  Done. PASS=4 WARN=0 ERROR=0 SKIP=0 TOTAL=4
+[2026-06-06T20:23:09.169-0400] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-06-06T20:23:09.182-0400] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=flight_data_pipeline, task_id=dbt_test_all_models, execution_date=20260607T002153, start_date=20260607T002304, end_date=20260607T002309
+[2026-06-06T20:23:09.195-0400] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-06-06T20:23:09.207-0400] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

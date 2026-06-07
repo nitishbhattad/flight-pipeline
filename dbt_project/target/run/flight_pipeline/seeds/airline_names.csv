@@ -1,0 +1,12 @@
+
+    
+    
+    truncate table "flights_db"."analytics"."airline_names";
+    -- dbt seed --
+    
+          insert into "flights_db"."analytics"."airline_names" ("airline_code", "airline_name", "airline_type") values
+          (%s,%s,%s),(%s,%s,%s),(%s,%s,%s),(%s,%s,%s),(%s,%s,%s),(%s,%s,%s),(%s,%s,%s),(%s,%s,%s),(%s,%s,%s),(%s,%s,%s),(%s,%s,%s),(%s,%s,%s),(%s,%s,%s),(%s,%s,%s),(%s,%s,%s)
+      
+
+;
+  

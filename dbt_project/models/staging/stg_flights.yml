@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: stg_flights
+    description: "Cleaned and standardized 2024 flight data"
+    columns:
+      - name: flight_date
+        tests:
+          - not_null
+      - name: airline_code
+        tests:
+          - not_null
+      - name: origin_airport
+        tests:
+          - not_null
+      - name: dest_airport
+        tests:
+          - not_null

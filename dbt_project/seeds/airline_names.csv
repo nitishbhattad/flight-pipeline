@@ -1,0 +1,16 @@
+airline_code,airline_name,airline_type
+AA,American Airlines,Major
+DL,Delta Air Lines,Major
+WN,Southwest Airlines,Major
+UA,United Airlines,Major
+B6,JetBlue Airways,Low Cost
+AS,Alaska Airlines,Major
+NK,Spirit Airlines,Ultra Low Cost
+F9,Frontier Airlines,Ultra Low Cost
+G4,Allegiant Air,Ultra Low Cost
+SY,Sun Country Airlines,Low Cost
+HA,Hawaiian Airlines,Major
+MQ,Envoy Air,Regional
+OO,SkyWest Airlines,Regional
+YX,Republic Airways,Regional
+9E,Endeavor Air,Regional

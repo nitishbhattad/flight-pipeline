@@ -1,0 +1,14 @@
+[2026-06-06T20:21:57.596-0400] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: flight_data_pipeline.validate_csv_file manual__2026-06-07T00:21:53.591277+00:00 [queued]>
+[2026-06-06T20:21:57.598-0400] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: flight_data_pipeline.validate_csv_file manual__2026-06-07T00:21:53.591277+00:00 [queued]>
+[2026-06-06T20:21:57.598-0400] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2026-06-06T20:21:57.602-0400] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): validate_csv_file> on 2026-06-07 00:21:53.591277+00:00
+[2026-06-06T20:21:57.605-0400] {standard_task_runner.py:60} INFO - Started process 63838 to run task
+[2026-06-06T20:21:57.609-0400] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'flight_data_pipeline', 'validate_csv_file', 'manual__2026-06-07T00:21:53.591277+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/flight_pipeline.py', '--cfg-path', '/var/folders/gg/xgb_ryd93xb1k5gd7g84zns00000gn/T/tmpeey91zsz']
+[2026-06-06T20:21:57.610-0400] {standard_task_runner.py:88} INFO - Job 3: Subtask validate_csv_file
+[2026-06-06T20:21:57.632-0400] {task_command.py:423} INFO - Running <TaskInstance: flight_data_pipeline.validate_csv_file manual__2026-06-07T00:21:53.591277+00:00 [running]> on host nitishs-macbook-air-5.local
+[2026-06-06T20:21:57.654-0400] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='nitish' AIRFLOW_CTX_DAG_ID='flight_data_pipeline' AIRFLOW_CTX_TASK_ID='validate_csv_file' AIRFLOW_CTX_EXECUTION_DATE='2026-06-07T00:21:53.591277+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-06-07T00:21:53.591277+00:00'
+[2026-06-06T20:21:57.658-0400] {logging_mixin.py:188} INFO - ✅ CSV valid — columns: ['year', 'month', 'day_of_month', 'day_of_week', 'fl_date', 'op_unique_carrier', 'op_carrier_fl_num', 'origin', 'origin_city_name', 'origin_state_nm', 'dest', 'dest_city_name', 'dest_state_nm', 'crs_dep_time', 'dep_time', 'dep_delay', 'taxi_out', 'wheels_off', 'wheels_on', 'taxi_in', 'crs_arr_time', 'arr_time', 'arr_delay', 'cancelled', 'cancellation_code', 'diverted', 'crs_elapsed_time', 'actual_elapsed_time', 'air_time', 'distance', 'carrier_delay', 'weather_delay', 'nas_delay', 'security_delay', 'late_aircraft_delay']
+[2026-06-06T20:21:57.659-0400] {python.py:201} INFO - Done. Returned value was: None
+[2026-06-06T20:21:57.661-0400] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=flight_data_pipeline, task_id=validate_csv_file, execution_date=20260607T002153, start_date=20260607T002157, end_date=20260607T002157
+[2026-06-06T20:21:57.711-0400] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-06-06T20:21:57.721-0400] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

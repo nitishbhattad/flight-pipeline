@@ -1,0 +1,207 @@
+[2026-06-06T20:18:36.239-0400] {processor.py:161} INFO - Started process (PID=63534) to work on /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:18:36.240-0400] {processor.py:830} INFO - Processing file /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-06-06T20:18:36.240-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:18:36.240-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:18:36.250-0400] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:18:36.355-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:18:36.355-0400] {override.py:1769} INFO - Created Permission View: can edit on DAG:tutorial_dag
+[2026-06-06T20:18:36.358-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:18:36.358-0400] {override.py:1769} INFO - Created Permission View: can read on DAG:tutorial_dag
+[2026-06-06T20:18:36.360-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:18:36.360-0400] {override.py:1769} INFO - Created Permission View: can delete on DAG:tutorial_dag
+[2026-06-06T20:18:36.360-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:18:36.360-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-06T20:18:36.364-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:18:36.364-0400] {dag.py:3058} INFO - Creating ORM DAG for tutorial_dag
+[2026-06-06T20:18:36.365-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:18:36.365-0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-06-06T20:18:36.372-0400] {processor.py:183} INFO - Processing /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.133 seconds
+[2026-06-06T20:20:09.218-0400] {processor.py:161} INFO - Started process (PID=63675) to work on /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:20:09.219-0400] {processor.py:830} INFO - Processing file /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-06-06T20:20:09.219-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:20:09.219-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:20:09.230-0400] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:20:09.286-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:20:09.286-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-06T20:20:09.289-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:20:09.289-0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-06-06T20:20:09.296-0400] {processor.py:183} INFO - Processing /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.079 seconds
+[2026-06-06T20:21:12.891-0400] {processor.py:161} INFO - Started process (PID=63769) to work on /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:21:12.893-0400] {processor.py:830} INFO - Processing file /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-06-06T20:21:12.894-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:21:12.893-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:21:12.911-0400] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:21:12.988-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:21:12.988-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-06T20:21:12.993-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:21:12.993-0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-06-06T20:21:13.003-0400] {processor.py:183} INFO - Processing /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.113 seconds
+[2026-06-06T20:23:24.035-0400] {processor.py:161} INFO - Started process (PID=63997) to work on /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:23:24.036-0400] {processor.py:830} INFO - Processing file /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-06-06T20:23:24.036-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:23:24.036-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:23:24.048-0400] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:23:24.119-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:23:24.119-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-06T20:23:24.122-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:23:24.122-0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-06-06T20:23:24.129-0400] {processor.py:183} INFO - Processing /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.097 seconds
+[2026-06-06T20:24:36.995-0400] {processor.py:161} INFO - Started process (PID=64115) to work on /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:24:36.996-0400] {processor.py:830} INFO - Processing file /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-06-06T20:24:36.996-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:24:36.996-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:24:37.006-0400] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:24:37.062-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:24:37.062-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-06T20:24:37.065-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:24:37.065-0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-06-06T20:24:37.072-0400] {processor.py:183} INFO - Processing /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.078 seconds
+[2026-06-06T20:25:42.056-0400] {processor.py:161} INFO - Started process (PID=64220) to work on /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:25:42.057-0400] {processor.py:830} INFO - Processing file /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-06-06T20:25:42.057-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:25:42.057-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:25:42.069-0400] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:25:42.139-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:25:42.139-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-06T20:25:42.144-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:25:42.144-0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-06-06T20:25:42.154-0400] {processor.py:183} INFO - Processing /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.098 seconds
+[2026-06-06T20:26:52.712-0400] {processor.py:161} INFO - Started process (PID=64343) to work on /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:26:52.713-0400] {processor.py:830} INFO - Processing file /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-06-06T20:26:52.713-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:26:52.713-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:26:52.726-0400] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:26:52.784-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:26:52.784-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-06T20:26:52.787-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:26:52.787-0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-06-06T20:26:52.795-0400] {processor.py:183} INFO - Processing /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.084 seconds
+[2026-06-06T20:27:59.367-0400] {processor.py:161} INFO - Started process (PID=64451) to work on /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:27:59.368-0400] {processor.py:830} INFO - Processing file /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-06-06T20:27:59.368-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:27:59.368-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:27:59.378-0400] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:27:59.438-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:27:59.438-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-06T20:27:59.442-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:27:59.441-0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-06-06T20:27:59.451-0400] {processor.py:183} INFO - Processing /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.085 seconds
+[2026-06-06T20:28:57.663-0400] {processor.py:161} INFO - Started process (PID=64538) to work on /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:28:57.664-0400] {processor.py:830} INFO - Processing file /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-06-06T20:28:57.664-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:28:57.664-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:28:57.674-0400] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:28:57.733-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:28:57.733-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-06T20:28:57.736-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:28:57.736-0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-06-06T20:28:57.743-0400] {processor.py:183} INFO - Processing /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.081 seconds
+[2026-06-06T20:29:55.121-0400] {processor.py:161} INFO - Started process (PID=64623) to work on /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:29:55.122-0400] {processor.py:830} INFO - Processing file /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-06-06T20:29:55.123-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:29:55.123-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:29:55.138-0400] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:29:55.203-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:29:55.203-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-06T20:29:55.206-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:29:55.206-0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-06-06T20:29:55.215-0400] {processor.py:183} INFO - Processing /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.095 seconds
+[2026-06-06T20:31:08.101-0400] {processor.py:161} INFO - Started process (PID=64737) to work on /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:31:08.102-0400] {processor.py:830} INFO - Processing file /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-06-06T20:31:08.102-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:31:08.102-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:31:08.117-0400] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:31:08.194-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:31:08.194-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-06T20:31:08.198-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:31:08.198-0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-06-06T20:31:08.209-0400] {processor.py:183} INFO - Processing /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.109 seconds
+[2026-06-06T20:32:24.823-0400] {processor.py:161} INFO - Started process (PID=64845) to work on /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:32:24.824-0400] {processor.py:830} INFO - Processing file /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-06-06T20:32:24.824-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:32:24.824-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:32:24.837-0400] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:32:24.904-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:32:24.904-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-06T20:32:24.908-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:32:24.907-0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-06-06T20:32:24.917-0400] {processor.py:183} INFO - Processing /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.095 seconds
+[2026-06-06T20:33:28.414-0400] {processor.py:161} INFO - Started process (PID=64936) to work on /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:33:28.419-0400] {processor.py:830} INFO - Processing file /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-06-06T20:33:28.419-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:33:28.419-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:33:28.437-0400] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:33:28.531-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:33:28.531-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-06T20:33:28.535-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:33:28.535-0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-06-06T20:33:28.544-0400] {processor.py:183} INFO - Processing /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.130 seconds
+[2026-06-06T20:34:29.634-0400] {processor.py:161} INFO - Started process (PID=65027) to work on /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:34:29.635-0400] {processor.py:830} INFO - Processing file /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-06-06T20:34:29.635-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:34:29.635-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:34:29.644-0400] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:34:29.700-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:34:29.700-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-06T20:34:29.703-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:34:29.703-0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-06-06T20:34:29.711-0400] {processor.py:183} INFO - Processing /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.077 seconds
+[2026-06-06T20:35:27.552-0400] {processor.py:161} INFO - Started process (PID=65119) to work on /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:35:27.554-0400] {processor.py:830} INFO - Processing file /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-06-06T20:35:27.554-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:35:27.554-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:35:27.566-0400] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:35:27.631-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:35:27.631-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-06T20:35:27.634-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:35:27.634-0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-06-06T20:35:27.642-0400] {processor.py:183} INFO - Processing /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.091 seconds
+[2026-06-06T20:36:28.469-0400] {processor.py:161} INFO - Started process (PID=65207) to work on /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:36:28.470-0400] {processor.py:830} INFO - Processing file /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-06-06T20:36:28.470-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:36:28.470-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:36:28.480-0400] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:36:28.536-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:36:28.535-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-06T20:36:28.538-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:36:28.538-0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-06-06T20:36:28.546-0400] {processor.py:183} INFO - Processing /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.077 seconds
+[2026-06-06T20:37:34.693-0400] {processor.py:161} INFO - Started process (PID=65316) to work on /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:37:34.694-0400] {processor.py:830} INFO - Processing file /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-06-06T20:37:34.694-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:37:34.694-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:37:34.704-0400] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:37:34.766-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:37:34.766-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-06T20:37:34.769-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:37:34.769-0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-06-06T20:37:34.777-0400] {processor.py:183} INFO - Processing /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.084 seconds
+[2026-06-06T20:38:39.917-0400] {processor.py:161} INFO - Started process (PID=65410) to work on /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:38:39.919-0400] {processor.py:830} INFO - Processing file /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-06-06T20:38:39.919-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:38:39.919-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:38:39.966-0400] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:38:40.151-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:38:40.151-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-06T20:38:40.158-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:38:40.157-0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-06-06T20:38:40.188-0400] {processor.py:183} INFO - Processing /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.273 seconds
+[2026-06-06T20:39:40.424-0400] {processor.py:161} INFO - Started process (PID=65499) to work on /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:39:40.425-0400] {processor.py:830} INFO - Processing file /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-06-06T20:39:40.425-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:39:40.425-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:39:40.435-0400] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:39:40.490-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:39:40.490-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-06T20:39:40.493-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:39:40.493-0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-06-06T20:39:40.500-0400] {processor.py:183} INFO - Processing /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.077 seconds
+[2026-06-06T20:40:45.776-0400] {processor.py:161} INFO - Started process (PID=65660) to work on /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:40:45.777-0400] {processor.py:830} INFO - Processing file /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-06-06T20:40:45.777-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:40:45.777-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:40:45.788-0400] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:40:45.847-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:40:45.847-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-06T20:40:45.850-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:40:45.850-0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-06-06T20:40:45.858-0400] {processor.py:183} INFO - Processing /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.083 seconds
+[2026-06-06T20:41:51.605-0400] {processor.py:161} INFO - Started process (PID=65762) to work on /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:41:51.606-0400] {processor.py:830} INFO - Processing file /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-06-06T20:41:51.606-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:41:51.606-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:41:51.616-0400] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:41:51.695-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:41:51.695-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-06T20:41:51.698-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:41:51.698-0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-06-06T20:41:51.707-0400] {processor.py:183} INFO - Processing /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.103 seconds
+[2026-06-06T20:42:51.394-0400] {processor.py:161} INFO - Started process (PID=65850) to work on /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:42:51.395-0400] {processor.py:830} INFO - Processing file /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-06-06T20:42:51.396-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:42:51.396-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:42:51.411-0400] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:42:51.475-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:42:51.474-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-06T20:42:51.478-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:42:51.478-0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-06-06T20:42:51.489-0400] {processor.py:183} INFO - Processing /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.096 seconds
+[2026-06-06T20:43:51.411-0400] {processor.py:161} INFO - Started process (PID=65938) to work on /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:43:51.411-0400] {processor.py:830} INFO - Processing file /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-06-06T20:43:51.412-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:43:51.412-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:43:51.424-0400] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:43:51.483-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:43:51.483-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-06T20:43:51.486-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:43:51.486-0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-06-06T20:43:51.494-0400] {processor.py:183} INFO - Processing /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.084 seconds
+[2026-06-06T20:44:55.861-0400] {processor.py:161} INFO - Started process (PID=66035) to work on /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:44:55.862-0400] {processor.py:830} INFO - Processing file /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-06-06T20:44:55.863-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:44:55.862-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:44:55.874-0400] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:44:55.933-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:44:55.933-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-06T20:44:55.936-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:44:55.935-0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-06-06T20:44:55.943-0400] {processor.py:183} INFO - Processing /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.082 seconds
+[2026-06-06T20:45:57.667-0400] {processor.py:161} INFO - Started process (PID=66125) to work on /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:45:57.668-0400] {processor.py:830} INFO - Processing file /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-06-06T20:45:57.668-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:45:57.668-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:45:57.678-0400] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:45:57.736-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:45:57.736-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-06T20:45:57.739-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:45:57.739-0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-06-06T20:45:57.748-0400] {processor.py:183} INFO - Processing /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.081 seconds
+[2026-06-06T20:47:01.947-0400] {processor.py:161} INFO - Started process (PID=66224) to work on /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:47:01.949-0400] {processor.py:830} INFO - Processing file /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-06-06T20:47:01.949-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:47:01.949-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:47:01.969-0400] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:47:02.079-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:47:02.079-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-06T20:47:02.085-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:47:02.085-0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-06-06T20:47:02.113-0400] {processor.py:183} INFO - Processing /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.167 seconds
+[2026-06-06T20:48:01.126-0400] {processor.py:161} INFO - Started process (PID=66319) to work on /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:48:01.127-0400] {processor.py:830} INFO - Processing file /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-06-06T20:48:01.128-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:48:01.128-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:48:01.139-0400] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:48:01.201-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:48:01.201-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-06T20:48:01.205-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:48:01.205-0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-06-06T20:48:01.214-0400] {processor.py:183} INFO - Processing /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.089 seconds
+[2026-06-06T20:49:00.791-0400] {processor.py:161} INFO - Started process (PID=66423) to work on /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:49:00.793-0400] {processor.py:830} INFO - Processing file /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-06-06T20:49:00.793-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:49:00.793-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:49:00.804-0400] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:49:00.865-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:49:00.865-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-06T20:49:00.868-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:49:00.868-0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-06-06T20:49:00.877-0400] {processor.py:183} INFO - Processing /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.087 seconds
+[2026-06-06T20:50:00.210-0400] {processor.py:161} INFO - Started process (PID=66528) to work on /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:50:00.211-0400] {processor.py:830} INFO - Processing file /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2026-06-06T20:50:00.211-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:50:00.211-0400] {dagbag.py:538} INFO - Filling up the DagBag from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:50:00.224-0400] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2026-06-06T20:50:00.290-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:50:00.290-0400] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-06-06T20:50:00.293-0400] {logging_mixin.py:188} INFO - [2026-06-06T20:50:00.293-0400] {dag.py:3823} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2026-06-06T20:50:00.301-0400] {processor.py:183} INFO - Processing /Users/nitishbhattad/anaconda3/envs/flight-pipeline/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.093 seconds
